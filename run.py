@@ -1,4 +1,10 @@
 """
+Link: http://code.google.com/p/pycurves/
+Author: Richard Tew <richard.m.tew@gmail.com>
+
+Description
+-----------
+
 This script opens a Pyglet window, and then randomly places a number of
 movable points which can be dragged up and down.  A Line is drawn between
 the points, which may be either straight or curved.  UI elements like buttons
@@ -11,7 +17,16 @@ Supported curve types:
   - Smooth step.
   - Hermite.
 
-This source code is in the public domain.
+Dependencies
+------------
+
+Pyglet
+
+Testing
+-------
+
+It was written using Python 2.6 on Windows and has not been tested on other
+platforms.
 """
 
 import random, math, sys
