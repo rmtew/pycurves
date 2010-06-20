@@ -4,11 +4,10 @@ Author: Richard Tew <richard.m.tew@gmail.com>
 Description
 -----------
 
-This script opens a Pyglet window, and then randomly places a number of
-movable points which can be dragged up and down.  A Line is drawn between
-the points, which may be either straight or curved.  UI elements like buttons
-and sliders are placed which allow the curve type to be changed and the
-way the curve is drawn to be varied.
+There are currently two scripts:
+
+  static.py: Visualise a curve using different methods of interpolation.
+  dynamic.py: Scroll along a curve using different methods of interpolation.
 
 Supported curve types:
 
